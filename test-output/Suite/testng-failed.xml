@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.saucedemo.TestPack.TC04Logoutfunctionality">
+        <methods>
+          <include name="teardown"/>
+          <include name="logoutfunctionality"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.saucedemo.TestPack.TC04Logoutfunctionality -->
+      <class name="com.saucedemo.TestPack.TC02AddtoCartproductfunctionality">
+        <methods>
+          <include name="addtocartproductfunctionality"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.saucedemo.TestPack.TC02AddtoCartproductfunctionality -->
+      <class name="com.saucedemo.TestPack.TC03AddAllproductTocartfunctionality">
+        <methods>
+          <include name="allproductaddtocart"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.saucedemo.TestPack.TC03AddAllproductTocartfunctionality -->
+      <class name="com.saucedemo.TestPack.TC01LoginFunctionality">
+        <methods>
+          <include name="loginfunctionality"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.saucedemo.TestPack.TC01LoginFunctionality -->
+      <class name="com.saucedemo.TestPack.TC05DropDownfunctionality">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="dropdownselect"/>
+        </methods>
+      </class> <!-- com.saucedemo.TestPack.TC05DropDownfunctionality -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
